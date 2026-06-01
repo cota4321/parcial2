@@ -18,7 +18,6 @@ main{
 	width: 100%;
 	padding: 20px;
 
-
 }
 
 
@@ -26,7 +25,7 @@ main .principal{
 	width: 150px;
 	height: 150px;
 	border-radius: 100%;
-	margin-top: -90px;
+	margin-top:  20px;
 	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -34,19 +33,30 @@ main .principal{
 
 
 main .principal img{
-	width: 135%;
-	border-radius: 120%;
+	width: 150px;
+	border-radius: 50%;
 	border: 6.5px 
 	solid	rgb(255, 255, 2555);
 }
 
+.caja{
+	background: #f0ead2;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin: 20px;
+}
+
+
+
 
 main .texto h3{
-	margin: 10px 0%;
+	margin-left: 7px;
 }
 
 main .texto p{
 	line height: 25px;
+	margin-left: 7px;
 }
 
 .contenedor{
@@ -54,7 +64,7 @@ main .texto p{
  width: 80%;
  margin: 0 auto;
  border-radius: 30px;
- background: #141414;
+ background: #ff0054;
  margin-top: 40px;
 
 
@@ -64,33 +74,40 @@ main .tareas{
 	padding: 15px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
 }
 
 main .tareas .foto{
     width: 300px;
 	height: 300px;
-	background: blue;
-	margin: 15px;
+    border: 5px solid #4f772d;
+    border-radius: 10px;
+    background: #adc178;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
 }
 
 main .foto img{
 	width: 100%;
-	height: 100%;
+	height: 220px;
 	object-fit: cover;
+	border-radius: 5px;
 }
 
 main .tareas .foto:hover{
-    border: 5px solid red;
-	transition: 0.5s;
-	color: blue;
-	margin: auto px;
+	transform: translateY(-12px)scale(1.03);  
+	box-shadow: 0 15PX 30PX 
+	rgb(0, 0, 0,0 .25);
+
 }
 
 
 
 body{
-	background:black;
-	color: greenyellow;
+	background:#dde5b6;
+	color: #38040e;
 }
 
 
